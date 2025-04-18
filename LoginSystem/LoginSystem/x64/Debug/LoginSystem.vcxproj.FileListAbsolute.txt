@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\GameCatalog\LoginSystem\LoginSystem\x64\Debug\LoginSystem.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\GameCatalog\LoginSystem\LoginSystem\x64\Debug\LoginSystem.RegisterForm.resources
+C:\Users\user\Desktop\GameCatalog\LoginSystem\LoginSystem\x64\Debug\LoginSystem.vcxproj.GenerateResource.cache
+C:\Users\user\Desktop\GameCatalog\LoginSystem\LoginSystem\x64\Debug\LoginSystem.MyForm.resources
+C:\Users\user\Desktop\LoginSystem\LoginSystem\x64\Debug\LoginSystem.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\LoginSystem\LoginSystem\x64\Debug\LoginSystem.MyForm.resources
+C:\Users\user\Desktop\LoginSystem\LoginSystem\x64\Debug\LoginSystem.RegisterForm.resources
+C:\Users\user\Desktop\LoginSystem\LoginSystem\x64\Debug\LoginSystem.vcxproj.GenerateResource.cache
+C:\Users\user\Desktop\LoginSystem\LoginSystem\x64\Debug\LoginSystem.AdminForm.resources
+C:\Users\user\Desktop\LoginSystem\LoginSystem\x64\Debug\LoginSystem.UserForm.resources

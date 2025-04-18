@@ -1,0 +1,57 @@
+  LoginSystem.AdminForm.resources - Embedded, ContainedInManifestFile, 
+  LoginSystem.MyForm.resources - Embedded, ContainedInManifestFile, 
+  LoginSystem.RegisterForm.resources - Embedded, ContainedInManifestFile, 
+  LoginSystem.UserForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly LoginSystem, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AuthSystem.UserDatabase: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    UserExists(String): PrivateScope, Public, HideBySig
+    ValidateUser(String, String): PrivateScope, Public, HideBySig
+    GetUserRole(String): PrivateScope, Public, HideBySig
+    AddUser(String, String, String): PrivateScope, Public, HideBySig
+    ChangeUserRole(String, String): PrivateScope, Public, HideBySig
+    GetAllUsers(): PrivateScope, Public, HideBySig
+Class AuthSystem.AdminForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, AuthSystem.UserDatabase): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AuthSystem.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Password 'get ' : 
+    System.String Username 'get ' : 
+  Methods:
+    get_Username(): PrivateScope, Public, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, HideBySig, SpecialName
+Class AuthSystem.RegisterForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ConfirmPassword 'get ' : 
+    System.String Password 'get ' : 
+    System.String Username 'get ' : 
+  Methods:
+    get_Username(): PrivateScope, Public, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, HideBySig, SpecialName
+    get_ConfirmPassword(): PrivateScope, Public, HideBySig, SpecialName
+Class AuthSystem.UserForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AuthSystem.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

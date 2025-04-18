@@ -1,0 +1,5 @@
+admin|admin123|admin
+Dima|123|user
+S|1|user
+eee|000|user
+www|333|user

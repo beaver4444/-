@@ -1,0 +1,24 @@
+﻿  AdminForm.cpp
+C:\Users\user\Desktop\LoginSystem\LoginSystem\UserDatabase.h(132,31): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "AdminForm.cpp")
+  
+C:\Users\user\Desktop\LoginSystem\LoginSystem\UserDatabase.h(151,31): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "AdminForm.cpp")
+  
+  LoginSystem.cpp
+C:\Users\user\Desktop\LoginSystem\LoginSystem\UserDatabase.h(132,31): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "LoginSystem.cpp")
+  
+C:\Users\user\Desktop\LoginSystem\LoginSystem\UserDatabase.h(151,31): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "LoginSystem.cpp")
+  
+  MyForm.cpp
+C:\Users\user\Desktop\LoginSystem\LoginSystem\UserDatabase.h(132,31): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\user\Desktop\LoginSystem\LoginSystem\UserDatabase.h(151,31): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "MyForm.cpp")
+  
+  Создание кода...
+  AdminForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  LoginSystem.vcxproj -> C:\Users\user\Desktop\LoginSystem\x64\Debug\LoginSystem.exe
